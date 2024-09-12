@@ -1,0 +1,40 @@
+{
+  "name": "simple-emitter",
+  "version": "0.0.1",
+  "description": "Simple event emitter",
+  "main": "dist/index.min.js",
+  "type": "module",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.min.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emaevskiy/simple-emmiter.git"
+  },
+  "keywords": [
+    "event",
+    "events",
+    "emitter",
+    "observer",
+    "listener",
+    "pubsub",
+    "emit",
+    "eventbus",
+    "bus"
+  ],
+  "author": "Eugene Maevskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emaevskiy/simple-emmiter/issues"
+  },
+  "homepage": "https://github.com/emaevskiy/simple-emmiter#readme",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^5.1.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.21.3"
+  }
+}

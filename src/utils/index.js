@@ -1,0 +1,1 @@
+export { isTypeOf } from './isTypeOf';
